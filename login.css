@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    background-color: #f0f8ff;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Sticky Header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Imperial Script', cursive;
+    font-size: 45px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Form Container */
+form {
+    width: 100%;
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #8faa18;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fieldset */
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 30px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+/* Table Layout */
+table {
+    width: 100%;
+}
+
+td {
+    padding: 10px;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    padding: 5px;
+    font-weight: 400;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Submit Button */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Legend */
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #333;
+    background-color: #ffebcc;
+    border: 1px solid #ffcc99;
+    border-radius: 5px;
+    padding: 0 10px;
+}
